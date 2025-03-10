@@ -1,80 +1,32 @@
-# NanoTekSpice
+# Secured
+# {EPITECH} | First year | Elementary Programming in C
 
-NanoTekSpice is a logic circuit simulator written in C++. It allows you to model digital electronic components and to simulate them by manipulating inputs and outputs.
+## Description 
+The goal of this project is to securing and storing certain information. To achieve this, the program uses a custom hash function to hash the provided data.
+The key, is the values you wanted to hash and storing, and the value 
+- **Key:** The unique identifier for the information you want to hash and store.
+- **Value:** The data you want to store.
 
-## 🛠️ Compilation
+Users can perform the following operations:
 
-The project can be compiled with a `Makefile`.
-Le projet peut être compilé avec un `Makefile`.
+- Add a key-value pair: `ht_insert(hash_table, "key", "value")`
+- Display the contents: `dump(hash_table)`
+- Delete a specific key: `ht_delete(hash_table, key)`
+- Search for a key: `ht_search(hash_table, key)`
+- Delete everything stored in the program: `delete_hashtable(hash_table)`
 
-### With Makefile
-```sh
-make
-```
-The following rules are available :
-- `make re` : recompile the project
-- `make clean` : deletes object files
-- `make fclean` : deletes object files and executable
 
-## 🚀 Use
 
-Execute NanoTekSpice with a configuration file :
-```sh
-./nanotekspice circuit.nts
-```
+## Get started
+### Compile the programm
 
-### Interactive commands
-During execution, several commands are available :
-- `exit` : close the program
-- `display` : displays the current state of the circuit
-- `input=value` : modifies the value of an input (`0`, `1` ou `U` for undefined)
-- `simulate` : preforms a simulation cycle
-- `loop` : runs the simulation continously until a `CTRL+C`
+Navigate to the root of the repository in your terminal.  
+Run ```make``` to build the static library, creating a compiled program.
+Use ```make clean``` to delete generated ```.o``` files.
 
-## 📄 Configuration file format 
-A file `.nts` describe the components and the connections of the circuit.
+### Testing 
+Run ```make run_tests``` to execute program tests.
 
-Example :
-```
-.chipsets:
-input a
-input b
-4071 or
-output s
+By following these steps, you can compile and test the Secured program effectively.
 
-.links:
-a:1 or:1
-b:1 or:2
-or:3 s:1
-```
-
-## 🔌 Available components
-
-### Special components
-- `input` : Entry control by the user
-- `output` : Output of the circuit
-- `clock` : Clock signal alternating between `0` et `1` at each simulation
-- `true` : Always `1`
-- `false` : Always `0`
-
-### Elementary components
-- `and` : AND gate
-- `or` : OR gate
-- `xor` : XOR gate
-- `not` : NOT gate
-
-### Advanced components
-- `4001` : 4 NOR gate
-- `4011` : 4 NAND gate
-- `4030` : 4 XOR gate
-- `4069` : 6 inverters
-- `4071` : 4 OR gate
-- `4081` : 4 AND gate
-
-## Example Component and
-![image](https://github.com/user-attachments/assets/61bcfc65-b535-4135-840b-d11fa14c90fc)
-
-## Contributors 👥
-
-* **Aleksandra RACINE** - ([Github](https://github.com/Aleksrac))  
-* **Hélène HOUPLAIN** - ([Github](https://github.com/Houpsi))  
+* **Hélène HOUPLAIN** - ([Github](https://github.com/Houpsi)) and **Aleksandra RACINE** - ([Github](https://github.com/Aleksrac))
