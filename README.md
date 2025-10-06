@@ -29,4 +29,4 @@ Run ```make run_tests``` to execute program tests.
 
 By following these steps, you can compile and test the Secured program effectively.
 
-* **Hélène HOUPLAIN** - ([Github](https://github.com/Houpsi)) and **Aleksandra RACINE** - ([Github](https://github.com/Aleksrac))
+* **Hélène HOUPLAIN** - ([Github](https://github.com/Houpsi)) and **Aleksandra RACINE** - ([Github](https://github.com/Aleksrac))!
