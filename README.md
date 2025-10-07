@@ -16,7 +16,6 @@ Users can perform the following operations:
 - Delete everything stored in the program: `delete_hashtable(hash_table)`
 
 
-
 ## Get started
 ### Compile the programm
 
