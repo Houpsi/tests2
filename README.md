@@ -3,7 +3,6 @@
 
 
 
-
 ## Description 
 The goal of this project is to securing and storing certain information. To achieve this, the program uses a custom hash function to hash the provided data.
 The key, is the values you wanted to hash and storing, and the value 
